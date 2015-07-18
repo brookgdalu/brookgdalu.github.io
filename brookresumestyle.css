@@ -1,12 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@font-face {
-	"Bitstream Vera Serif Bold";
-      	src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+@font-face { 
+	font-family: Delicious; 
+	src: url('Delicious-Roman.otf'); 
+	
+} 
+@font-face { 
+	font-family: Delicious; 
+	font-weight: bold; 
+	src: url('Delicious-Bold.otf'); 
+	
 }
+
 body {
-	font-family:"Bitstream Vera Serif Bold", Verdana, Geneva, sans-serif;
+	font-family: 'Delicious', Verdana, Geneva, sans-serif;
 	background-color:#fff;
 }
 
