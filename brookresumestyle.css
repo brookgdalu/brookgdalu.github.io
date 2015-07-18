@@ -2,13 +2,13 @@
 /* CSS Document */
 
 @font-face {
-	font-family: 'OpenSansRegular';
-	src: url('OpenSansRegular-webfont.eot');
-	font-style: normal;
+	"Bitstream Vera Serif Bold";
+      	src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+      	font-style: normal;
 	font-weight: normal;
 }
 body {
-	font-family:'OpenSansRegular', Verdana, Geneva, sans-serif;
+	font-family:"Bitstream Vera Serif Bold", Verdana, Geneva, sans-serif;
 	background-color:#CCC;
 }
 
