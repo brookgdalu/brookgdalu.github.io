@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	src: url('OpenSansRegular-webfont.eot');
+	font-style: normal;
+	font-weight: normal;
+}
+body {
+	font-family:'OpenSansRegular', Verdana, Geneva, sans-serif;
+	background-color:#CCC;
+}
+
+h1 {
+	text-align:center;
+	text-shadow: 3px 3px 3px #CC9;
+}
+
+h3 {
+	color: #963;
+	text-shadow: 1px 1px 1px #CC9;
+	text-align:center;
+	border: 20px;
+	border-radius: 4px 15px 12px 10px; 
+	border-color:#CC9;
+	background:#000;
+	padding: 5px; 
+	margin: 5px; 
+
+	
+}
+
+li { 
+	display: inline-block;
+	background:#CC9; 
+	padding: 5px;
+	margin: 20px;
+}
+
+p {
+	padding: 5px;
+	margin: 20px; 
+}
